@@ -1,0 +1,102 @@
+.div {
+	display: block;
+}
+
+.header {
+	background-color: #3A0E0E;
+}
+.header a {
+  text-transform: uppercase;
+  color: white;
+}
+
+.header li {
+  display: inline;
+}
+
+.nav-pills > li.active, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background-color: #8B7F7F;
+}
+
+.jumbotron {
+	height: 800px;
+	background: url("https://s3.amazonaws.com/codecademy-content/projects/broadway/bg.png") no-repeat center center;
+	background-size: cover;
+
+}
+.jumbotron .container .main {
+	position: relative;
+    top: 180px;
+    text-align: center;
+}
+.jumbotron .container h1 {
+	font-color: #333;
+	font-family: 'Raleway', sans-serif;
+	font-size: 70px;
+	font-weight: 600;
+    margin-bottom: 90px;
+}
+
+.btn-primary {
+	background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container {
+	max-width: 940px;
+    margin: 0 auto;
+    padding: 0 10px;}
+
+.supporting {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.supporting img {
+	height: 60px;
+}
+
+.supporting .col {
+	float: left;
+	width: 33%;
+	font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+.supporting p {
+	font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 50px;
+    margin-bottom: 40px;
+}
+
+.btn-default {
+	border: 1px solid black;
+	padding: 10px 50px 10px 50px;
+	color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.footer {
+	background-color: #3A0E0E;
+	padding: 30px;
+}
+
+.footer p {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #fff;
+}
